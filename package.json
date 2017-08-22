@@ -7,15 +7,15 @@
     "test": "test"
   },
   "dependencies": {
-      "express": "3.2.4",
-      "jade": "1.11.0",
-      "mocha": "1.20.1",
-      "supertest": "1.1.0"
+    "express": "3.2.4",
+    "jade": "1.11.0",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js"
+    "test": "mocha test/test.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/deepuab/CircleCITest/issues"
   },
-  "homepage": "https://github.com/deepuab/CircleCITest#readme"   
+  "homepage": "https://github.com/deepuab/CircleCITest#readme"
 }
